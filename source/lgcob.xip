@@ -1,0 +1,35 @@
+<project buildenvironment="{84faf732-1340-4049-9094-244167adf571}" buildenvironmentname="vm" executionenvironmentoption="" buildenvironmentoption="" executionenvironmentname="vm" executionenvironment="{2b2c6868-a56e-4266-962a-cddf1c979343}" >
+ <folder name="C Files" >
+  <extension name="c" />
+  <file path="lgcob.c" />
+  <file path="uart_print.c" />
+ </folder>
+ <folder name="Header Files" >
+  <extension name="h" />
+  <folder name="Devices" >
+   <file path="devices/device_helper.h" />
+   <file path="devices/device.h" />
+   <file path="devices/skeleton.h" />
+   <file path="devices/ss.h" />
+  </folder>
+  <file path="uart_print.h" />
+ </folder>
+ <properties currentconfiguration="Release" >
+  <configuration name="Release" >
+   <property key="buildMatch" >(file):(line):</property>
+   <property key="build_merge" >1</property>
+   <property key="buildtransport" >4</property>
+   <property key="debug" >0</property>
+   <property key="debugtransport" >[SPI|LPT1|No]</property>
+   <property key="defines" >HID_DEVICE</property>
+   <property key="device" >0</property>
+   <property key="execution_mode" >1</property>
+   <property key="firmware" >0</property>
+   <property key="flashsize" >2</property>
+   <property key="hardware" >5</property>
+   <property key="libs" >connection,bdaddr,hid_device</property>
+   <property key="output" ></property>
+   <property key="stacksize" ></property>
+  </configuration>
+ </properties>
+</project>

@@ -1,0 +1,20 @@
+<custom>
+   <property type="list" key="device" format="define" name="Target Device" defaultvalue="0">
+       <option internalval="DEVICE_SS">SEGA Saturn Gamepad</option>
+       <option internalval="DEVICE_SKELETON">Skeleton</option>
+       <description>
+           <![CDATA[
+           This option selects which gaming device you are targeting on.
+           ]]>
+       </description>
+   </property>
+   <property type="list" key="debug" format="define" name="Enable debug" defaultvalue="0">
+       <option internalval="UART_PRINT_ENABLED">Yes</option>
+       <option internalval="NO_DEBUG">No</option>
+       <description>
+           <![CDATA[
+           This option determines if debug messages should be printed through UART.
+           ]]>
+       </description>
+   </property>
+</custom>

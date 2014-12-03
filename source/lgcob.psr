@@ -1,0 +1,6 @@
+// PSKEY_HOST_INTERFACE
+&01f9 = 0004// VM access to the UART
+// PSKEY_DEEP_SLEEP_STATE
+&0229 = 0000// deep sleep will not be used
+// PSKEY_DEVICE_NAME
+&0108 = 5353 6147 656d 6170 2d64 5442// SSGamepad-BT

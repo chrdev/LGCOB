@@ -27,3 +27,16 @@
 *.i*86
 *.x86_64
 *.hex
+
+# Compile time files
+*.mak
+*.sym
+*.xap
+*.app
+*.dbg
+*.map
+*.fs
+
+# Firmware images
+*.xdv
+*.xpv
